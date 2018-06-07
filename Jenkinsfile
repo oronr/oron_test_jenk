@@ -4,7 +4,10 @@ pipeline {
     stage('ls') {
       steps {
         sh 'ls'
-        sh 'cd download'
+        sh '''cd Downloads
+
+'''
+        sh 'ls'
       }
     }
   }
