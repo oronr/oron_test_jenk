@@ -11,7 +11,7 @@ pipeline {
         }
         stage('npm serve') {
           steps {
-            sh 'nmp serve'
+            sh 'npm test'
           }
         }
       }
