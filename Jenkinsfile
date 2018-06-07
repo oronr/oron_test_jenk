@@ -4,7 +4,8 @@ pipeline {
     stage('step1') {
       steps {
         sh '''npn install
-npm run'''
+'''
+        sh 'npm run'
       }
     }
   }
